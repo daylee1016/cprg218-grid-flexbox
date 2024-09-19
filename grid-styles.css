@@ -1,0 +1,22 @@
+*{ 
+    box-sizing: border-box;
+}
+body{
+    background-color: red;
+}
+
+main{
+    display: grid; /* won't change until i add how many rows and columns i want*/
+    grid-template-columns: 1fr 1fr 1fr; /*1fr = fraction*/
+    /*i can use px,%,fr etc8*/
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+}
+h1{
+    background-color: white;
+}
+section{
+    background-color: white;
+    border: 3px solid black;
+    padding: 1rem;
+}
